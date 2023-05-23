@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.Section {
+    background-color: #005A9C;
+    color: #fff;
+    padding-left:5%;
+    font-size: 12px;
+}
+
+.border{
+    border-right: 1px solid #fff;
+    
+}
+
+.Style-Button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    padding: 0 6px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 12px;
+    }
+
+    .st{
+        background-color: #FFD700;
+        padding: 0 6px;
+    }
+
+    .display{
+        display: inline;
+        right: 0%;
+        position: absolute;
+    }
+
+    .display > span {
+        font-weight: bold;
+    }
+
+    .display > a {
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    .st1 {
+        background-color: #4FFFB0;
+        padding: 0 6px;
+    }
+
+    .Tower{
+        margin-left: .5%;
+        margin-top: -10px;
+        
+    }
+
+    .imgcont {
+      display: flex;
+      background-color: #2D68C4;
+      padding-bottom: 6px;
+    }
+
+    .imgcont > span {
+        margin-left: 1%;
+        margin-top: 1%;
+        color: #fff;
+        font-weight: 500;
+        font-size: 22px;
+        
+    }
+
+    .container {
+        display: flex;
+        height: 100%;
+        /* width: 100vw; */
+    }
+
+    .Upper-option {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .Mar-up {
+        margin-top: 3%;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        background-color: #2D68C4;
+        width: 12%;
+        color: #fff;
+        height: 100vh;
+        position: sticky;
+        top: 0px;
+        
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 16px 14px;
+       
+    }
+.search {
+    max-width: 86%;
+}
+
+.space {
+   margin-top: -1px;
+}
+
+.lay {
+    width: 100%;
+    background-color: #f8f8ff;
+    position: relative;
+    padding: 20px;
+   
+    
+}
+.lay > span {
+    font-size: 22px;
+    color:#002D62;
+    font-weight: 500;
+}
+.css-p1u9s4 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.box {
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+    width: calc(100% + 24px);
+    margin-top: -24px;
+    margin-left: -24px;
+}
+
+.box > .MuiGrid-item {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+
+.box-item {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+   
+}
+
+  
+
+.inner-box {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+}
+
+.css-ype7bp {
+    padding: 16px 24px 24px;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.css-45izr7 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    font-size: large;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    color: rgb(52, 71, 103);
+    font-weight: 700;
+    background-image: linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.css-1wrmftn {
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.css-n2lc3p {
+    margin-bottom: 16px;
+    opacity: 1;
+    background: transparent;
+    color: rgb(52, 71, 103);
+}
+
+.css-vxvnq5 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    color: rgb(52, 71, 103);
+    font-weight: 700;
+    background-image: linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.css-e5c77h {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    -webkit-box-align: center;
+    padding: 0.5rem 0.75rem;
+    border: 0.0625rem solid rgb(210, 214, 218);
+    border-radius: 0.5rem;
+    pointer-events: auto;
+    display: grid !important;
+    place-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+    color: rgb(73, 80, 87) !important;
+    background-color: rgb(255, 255, 255) !important;
+    background-clip: padding-box !important;
+    appearance: none !important;
+    transition: box-shadow 150ms ease 0s, border-color 150ms ease 0s, padding 150ms ease 0s !important;
+}
+
+.css-1bqqmdo {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    height: 1.375rem;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+/*  */
+
+.box > .MuiGrid-item {
+    padding-left: 24px;
+}
+
+.box > .MuiGrid-item {
+    padding-top: 24px;
+}
+
+.css-lxazra {
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+/*  */
+@media (min-width: 1200px) {
+    .css-lxazra {
+        flex-basis: 41.6667%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 41.6667%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+
+.css-lxazra {
+    flex-basis: 41.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 41.6667%;
+}
+}
+
+@media (min-width: 768px) and (max-width:900px) {
+.css-lxazra {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+}
+}
+
+@media (min-width: 576px) and (max-width:700px) {
+.css-lxazra {
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+}
+/*  */
+.css-1ikvzz0 {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+}
+/*  */
+@media only screen and (min-width: 1200px) {
+    .box-item {
+        flex-basis: 58.3333%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 58.3333%;
+    }
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+    .box-item {
+        flex-basis: 58.3333%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 58.3333%;
+    }
+    }
+    @media only screen and (min-width: 768px) and (max-width:900px){
+    
+    
+    .box-item {
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    }
+    }
+    @media only screen and (min-width: 576px) and (max-width:700px){
+    .box-item {
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 100%;
+    }
+    }
+    /*  */
+  
+    .css-gg7pca {
+        margin-bottom: 16px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        opacity: 1;
+        background: transparent;
+        color: rgb(52, 71, 103);
+    }
+
+    .css-1ogwwfi {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+        opacity: 1;
+        background: transparent;
+        color: rgb(52, 71, 103);
+    }
+
+    .css-15z8n {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        outline: 0px;
+        margin: 0px 0.375rem 0px 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 1.25rem;
+        height: 1.25rem;
+        padding: 0px;
+        color: transparent;
+        border: 0.0625rem solid rgb(222, 226, 230);
+        border-radius: 0.35rem;
+        transition: all 250ms ease 0s;
+        background-color: transparent;
+    }
+    
+    .css-1m9pwf3 {
+        cursor: inherit;
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    .css-sqltrg {
+        margin: 0px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        letter-spacing: 0.02857em;
+        opacity: 1;
+        text-transform: none;
+        vertical-align: unset;
+        text-decoration: none;
+        color: rgb(52, 71, 103);
+        font-weight: 400;
+    }
+
+    .style {
+        width: 100%;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .style1 {
+        width: 100%;
+        padding: 12px;
+        border-radius: 7px;
+    }
+
+    .css-n2lc3p {
+        margin-bottom: 16px;
+        opacity: 1;
+        background: transparent;
+        color: rgb(52, 71, 103);
+    }
