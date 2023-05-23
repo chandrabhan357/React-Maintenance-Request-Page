@@ -6,6 +6,9 @@ import {
   faHouse,
   faUser,
   faPeopleLine,
+  faToolbox,
+  faWifi,
+  faLaptop
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assests/download.jpg";
 
@@ -66,13 +69,13 @@ const Page = () => {
               <FontAwesomeIcon icon={faPeopleLine} /> Front Desk
             </span>
             <span>
-              <FontAwesomeIcon icon={faHouse} /> Dashboard
+              <FontAwesomeIcon icon={faToolbox} /> Maintenance
             </span>
             <span>
-              <FontAwesomeIcon icon={faHouse} /> Dashboard
+              <FontAwesomeIcon icon={faWifi} /> Communicate
             </span>
             <span>
-              <FontAwesomeIcon icon={faHouse} /> Dashboard
+              <FontAwesomeIcon icon={faLaptop} /> Resident Site
             </span>
           </div>
         </div>
