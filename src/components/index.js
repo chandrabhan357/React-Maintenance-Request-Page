@@ -77,6 +77,9 @@ const Page = () => {
             <span>
               <FontAwesomeIcon icon={faLaptop} /> Resident Site
             </span>
+            <span className="left">
+              Other
+            </span>
           </div>
         </div>
         <div className="lay">

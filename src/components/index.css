@@ -117,6 +117,10 @@ html, body {
         padding: 16px 14px;
        
     }
+
+    .left {
+        padding-left: 24px;
+    }
 .search {
     max-width: 86%;
 }
