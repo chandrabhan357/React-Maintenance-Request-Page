@@ -8,7 +8,7 @@ import {
   faPeopleLine,
   faToolbox,
   faWifi,
-  faLaptop
+  faLaptop,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assests/download.jpg";
 
@@ -77,9 +77,7 @@ const Page = () => {
             <span>
               <FontAwesomeIcon icon={faLaptop} /> Resident Site
             </span>
-            <span className="left">
-              Other
-            </span>
+            <span className="left">Other</span>
           </div>
         </div>
         <div className="lay">
@@ -383,6 +381,24 @@ const Page = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="MuiBox-root css-1r5k56i">
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-1hsn0c2"
+                tabindex="0"
+                type="button"
+              >
+                Save
+              </button>
+              &nbsp;&nbsp;
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-1hsn0c2"
+                tabindex="0"
+                type="button"
+              >
+                Save and add another
+              </button>&nbsp;&nbsp;&nbsp;&nbsp;
+             <span className="butt">Clear</span>
             </div>
           </div>
         </div>
