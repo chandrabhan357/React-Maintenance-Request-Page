@@ -264,12 +264,8 @@ const Page = () => {
                         <div class="MuiBox-root css-1wrmftn">
                           <select className="style1">
                             <option>Select</option>
-                            <option value="apples">Red Apples</option>
-                            <option value="oranges">Outrageous Oranges</option>
-                            <option value="tomatoes">
-                              Technically a Fruit Tomatoes
-                            </option>
-                            <option value="bananas">Bodacious Bananas</option>
+                            <option value="apples">Server Problem</option>
+                            <option value="oranges">Maintenance Error</option>
                           </select>
                         </div>
                       </div>
@@ -292,12 +288,8 @@ const Page = () => {
                         <div class="MuiBox-root css-1wrmftn">
                           <select className="style1">
                             <option>Select</option>
-                            <option value="apples">Red Apples</option>
-                            <option value="oranges">Outrageous Oranges</option>
-                            <option value="tomatoes">
-                              Technically a Fruit Tomatoes
-                            </option>
-                            <option value="bananas">Bodacious Bananas</option>
+                            <option value="apples">Server Problem</option>
+                            <option value="oranges">Maintenance Error</option>
                           </select>
                         </div>
                       </div>
@@ -307,13 +299,8 @@ const Page = () => {
                         </span>
                         <div class="MuiBox-root css-1wrmftn">
                           <select className="style1">
-                            <option>Select</option>
-                            <option value="apples">Red Apples</option>
-                            <option value="oranges">Outrageous Oranges</option>
-                            <option value="tomatoes">
-                              Technically a Fruit Tomatoes
-                            </option>
-                            <option value="bananas">Bodacious Bananas</option>
+                          <option value="apples">Server Problem</option>
+                            <option value="oranges">Maintenance Error</option>
                           </select>
                         </div>
                       </div>
